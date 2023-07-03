@@ -1,0 +1,126 @@
+<!-- I made a portfolio style website for our familly business that is:
+
+1. good looking 
+3. responsive 
+4. optimized for mobile devices 
+5. user friendly environment (gives a good scrolling experience when accesd from mobile devices)
+5. easy to add new photo galleries to it 
+6. a functional contact form 
+
+// http://vhstudio.byethost6.com -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <link rel="stylesheet" href="CSS/style_main.css">
+    <link rel="stylesheet" href="CSS/style_slideShow.css">
+    <link href="https://fonts.googleapis.com/css2?family=Futura:wght@400&display=swap" rel="style_main">
+     
+
+  
+
+    <meta charset="UTF-8">
+    <title>VHStudio</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+  
+    <!-- Header + Menu + Logo -->
+
+<div class="header">
+
+  <div id="logo">
+        <a href="index.html">
+          <img src="Images/logo/logo.png" alt="Logo">
+        </a>
+      </div>
+      
+      <div class="menu-icon">
+        <div class="icon-bar"></div>
+        <div class="icon-bar"></div>
+        <div class="icon-bar"></div>
+      </div>
+      
+      <div class="menu-items">
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact_us.html">Contact</a>
+      </div>
+  </div>
+
+<!-- <div class = "moto">
+
+   We create memories that last a lifetime...
+
+</div> -->
+
+    <!-- Photo Grid -->
+
+    <div class="slideshow-container">
+      <div class="slideshow">
+        <img src="Images/slideshow/image1.jpg" alt="Slide 1" class="slide">
+        <img src="Images/slideshow/image2.jpg" alt="Slide 2" class="slide">
+        <img src="Images/slideshow/image3.jpg" alt="Slide 3" class="slide">
+        <img src="Images/slideshow/image4.jpg" alt="Slide 4" class="slide">
+        <img src="Images/slideshow/image5.jpg" alt="Slide 5" class="slide">
+        <img src="Images/slideshow/image6.jpg" alt="Slide 6" class="slide">
+
+        <img src="Images/slideshow/image7.jpg" alt="Slide 7" class="slide">
+        <img src="Images/slideshow/image8.jpg" alt="Slide 8" class="slide">
+        <img src="Images/slideshow/image9.jpg" alt="Slide 9" class="slide">
+        <img src="Images/slideshow/image10.jpg" alt="Slide 10" class="slide">
+        <img src="Images/slideshow/image11.jpg" alt="Slide 11" class="slide">
+        <img src="Images/slideshow/image12.jpg" alt="Slide 12" class="slide">
+
+        <img src="Images/slideshow/image13.jpg" alt="Slide 13" class="slide">
+        <img src="Images/slideshow/image14.jpg" alt="Slide 14" class="slide">
+        <img src="Images/slideshow/image15.jpg" alt="Slide 15" class="slide">
+        <!-- <img src="Images/slideshow/image16.jpg" alt="Slide 16" class="slide">
+        <img src="Images/slideshow/image17.jpg" alt="Slide 17" class="slide">
+        <img src="Images/slideshow/image18.jpg" alt="Slide 18" class="slide">
+
+        <img src="Images/slideshow/image18.jpg" alt="Slide 19" class="slide"> -->
+
+
+      </div>
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+
+
+    <div class="footer">
+
+      <p id="social-items">
+        <a href="https://fb.com/vhstudio7" target="_blank">
+          <img src="Images/logo/facebook.png" alt="Facebook" >
+        </a>
+
+        <a href="https://www.instagram.com/liveheartstudio/" target="_blank">
+          <img src="Images/logo/instagram.png" alt="Instagram" >
+        </a>
+
+        <a href="https://www.youtube.com/@liveheartstudio4315/videos" target="_blank">
+          <img src="Images/logo/youtube.png" alt="YouTube">
+        </a>
+      </p>
+
+
+        <!-- <p id="footer-text">Date + Digital Clock</p> -->
+    
+       
+              
+        <script src="Script/script-mobile.js"></script>      
+        <script src="Script/script-hamburger-menu.js"></script>
+              <script src="Script/script-slideshow.js"></script>
+         
+    </div>
+
+</body>
+</html>

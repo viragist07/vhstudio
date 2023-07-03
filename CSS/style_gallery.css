@@ -1,0 +1,72 @@
+
+/* Style Galleries */
+[class^="image-container_"] {
+/*attribute selector that targets all elements whose class attribute starts with "image-container_"   */ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-block-end: 100px;  
+  width: 100vw;
+}
+
+[class^="image-container_"] img {
+  margin: 1px;
+  width: 90vw;
+  max-width: 1024px;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+  cursor: default;
+}
+
+
+
+  
+  /* Add a cursor pointer to indicate the image is clickable */
+  
+  /* .modal {
+    display: none; /* Hide the modal by default */
+    /* position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+  }
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    max-height: 80%;
+  }
+  .modal-content img {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+  } */
+ 
+
+  /* .comment-text p{
+    text-align: left;
+    margin: 10px
+
+  } */
+ 
+
+  

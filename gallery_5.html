@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/style_main.css">
+    <link rel="stylesheet" href="CSS/style_slideShow.css">
+    <link href="https://fonts.googleapis.com/css2?family=Futura:wght@400&display=swap" rel="style_main">
+    <meta charset="UTF-8">
+    <title>E&A Wedding</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            flex: 0 0 auto;
+        }
+
+        #pixieset {
+            flex: 1 0 auto;
+            margin-top: 120px;
+            margin-bottom: 30px;
+
+        }
+
+        .footer {
+            flex: 0 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header + Menu + Logo -->
+    <div class="header">
+        <div id="logo">
+            <a href="index.html">
+                <img src="Images/logo/logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="menu-icon">
+            <div class="icon-bar"></div>
+            <div class="icon-bar"></div>
+            <div class="icon-bar"></div>
+        </div>
+        <div class="menu-items">
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact_us.html">Contact</a>
+        </div>
+    </div>
+    <!-- <div class = "moto">
+       We create memories that last a lifetime...
+    </div> -->
+    <!-- Photo Grid -->
+    <div id="pixieset">
+        <iframe src="https://vhstudio7.pixieset.com/emeseattila/" frameborder="0" style="width: 100%; height: 100%;"></iframe>
+    </div>
+    <div class="footer">
+        <p id="social-items">
+            <a href="https://fb.com/vhstudio7" target="_blank">
+                <img src="Images/logo/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/liveheartstudio/" target="_blank">
+                <img src="Images/logo/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.youtube.com/@liveheartstudio4315/videos" target="_blank">
+                <img src="Images/logo/youtube.png" alt="YouTube">
+            </a>
+        </p>
+        
+        <script src="Script/script-mobile.js"></script>
+        <script src="Script/script-hamburger-menu.js"></script>
+        <script src="Script/script-slideshow.js"></script>
+    </div>
+</body>
