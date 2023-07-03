@@ -31,13 +31,4 @@ for (let i = 10; i >= 1; i--) { // Start from latest album and decrement
   container.appendChild(imgContainer); // appendChild() is a method that allows you to add a new child element to an existing parent element
 }
 
-// // Close the modal by clicking the X
-// span.addEventListener('click', () => {
-//   modal.style.display = 'none';
-// });
 
-// window.addEventListener('click', (event) => {
-//   if (event.target == modal) {
-//     modal.style.display = 'none';
-//   }
-// });
