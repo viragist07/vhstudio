@@ -5,7 +5,7 @@ const modal = document.getElementById('myModal');
 const modalImg = document.getElementById('modal-img');
 const span = document.getElementsByClassName('close')[0];
 
-const albumNames = ['Noémi & Hunor','Erika & Tixi','Helga & Norbi', 'Kinga & Hengi', 'Edina & Csaba', 'Rita & Krisztián', 'Boglárka & Lori', 'Boglárka & Levente', 'Andrea & Botond', 'Kriszta & Levente'];
+const albumNames = ['Noémi & Hunor','Erika & Tixi','Helga & Norbi', 'Kinga & Hengi', 'Edina & Csaba', 'Emese & Attila', 'Boglárka & Lori', 'Boglárka & Levente', 'Andrea & Botond', 'Kriszta & Levente'];
 
 for (let i = 10; i >= 1; i--) { // Start from latest album and decrement
   const imgContainer = document.createElement('div');
